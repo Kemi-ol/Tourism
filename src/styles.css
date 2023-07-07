@@ -13,7 +13,7 @@ h2{
 
 }
 
-h3{
+header h3{
     font-size: 40px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -22,7 +22,7 @@ h1, h2, h3, button, footer, a ,p{
     text-align: center;
 }
 
-p a{
+header p a{
     color: black;
     background: white;
     text-decoration: none;
@@ -40,7 +40,7 @@ p a{
     margin: 0 auto;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/menton2.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/menton.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -49,8 +49,50 @@ header{
     margin: 0 auto;
     color: white;
 }
+.footerContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    line-height: 20px;
+}
 
-@media(max-width:900px){
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.info{
+    padding: 40px;
+}
+
+.about{
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.5;
+}
+footer{
+color:white;
+padding: 20px;
+background-image:linear-gradient(rgba(10, 0, 0,0.8), rgba(181, 215, 249,0.8)), url(../images/menton2.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 40px;}
+
+footer h3{
+    font-size: 30px;
+    text-align: left;
+    opacity: 0.8;
+}
+
+footer a{
+    color: white;
+}
+@media(max-width:960px){
     header{
         padding: 40px 0
     }
@@ -63,11 +105,11 @@ header{
         line-height: normal;
       
     }
-    h3{
+    header h3{
         font-size: 15px;
         line-height: normal;
     }
-    p a{
+    header p a{
         font-size: 12px;
         padding: 8px;
         letter-spacing: normal;
