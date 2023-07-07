@@ -4,12 +4,14 @@ body{
     h1{
     font-size: 100px;
     line-height:40px;
+     text-align: center;
 }
 
 h2{
     font-size: 40px;
     line-height: 1.5;
     font-style: italic;
+     text-align: center;
 
 }
 
@@ -17,8 +19,9 @@ header h3{
     font-size: 40px;
     line-height: 1.5;
     text-transform: uppercase;
+     text-align: center;
 }
-h1, h2, h3, button, footer, a ,p{
+ button, footer ,p{
     text-align: center;
 }
 
@@ -84,6 +87,10 @@ section{
     background-color: aliceblue;
     padding:80px 80px;
 }
+
+section img{
+    max-width: 100%;
+}
 .whyMenton{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -126,7 +133,6 @@ ul{
 }
 footer{
 color:white;
-padding: 20px;
 background-image:linear-gradient(rgba(10, 0, 0,0.8), rgba(181, 215, 249,0.8)), url(../images/menton2.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
@@ -141,7 +147,7 @@ footer h3{
 footer a{
     color: white;
 }
-@media(max-width:960px){
+@media(max-width:900px){
     header{
         padding: 40px 0
     }
@@ -156,7 +162,7 @@ footer a{
     }
     header h3{
         font-size: 15px;
-        line-height: normal;
+        line-height: 0.5;
     }
     header p a{
         font-size: 12px;
@@ -164,4 +170,54 @@ footer a{
         letter-spacing: normal;
         border-radius: 5px;
          }
+    .whyMenton{
+    grid-template-columns: 1fr;
+}
+section{
+    background-color: aliceblue;
+    padding:10px 10px;
+}
+.footerContainer{
+    grid-template-columns: 1fr;
+    padding: 0px;
+    text-align: left;
+    grid-gap:1px
+}
+main h2
+{
+    font-size:18px;
+}
+main p
+{
+    font-size:13px;
+}
+
+footer h3{
+    font-size: 15px;
+    text-align: left;
+}
+
+.info{
+    padding: 0px;
+    text-align: left;
+    margin:0 ;
+
+}
+
+.info p{
+    font-size: 12px;
+}
+.about a{
+    text-align: left;
+}
+footer a{
+    font-size: 12px;
+    margin: 0;
+}
+.about{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+    line-height: 1;
+}
 }
