@@ -84,18 +84,20 @@ main p{
     margin-top: 0;
 }
 section{
-    background-color: aliceblue;
     padding:80px 80px;
 }
 
 section img{
     max-width: 100%;
 }
+
+section.secondary{
+    background-color:aliceblue ;
+}
 .whyMenton{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    
-    
+    background-color: white;
 }
 .mentonInfo{
     justify-content: center;
@@ -174,7 +176,6 @@ footer a{
     grid-template-columns: 1fr;
 }
 section{
-    background-color: aliceblue;
     padding:10px 10px;
 }
 .footerContainer{
