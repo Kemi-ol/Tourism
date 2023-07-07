@@ -189,6 +189,18 @@ footer h3{
 footer a{
     color: white;
 }
+
+.grid-2-columns{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.embed{
+    width:100%;
+    aspect-ratio:2/1;
+}
+
+
 @media(max-width:900px){
     header{
         padding: 40px 0
@@ -273,5 +285,14 @@ footer a{
     font-weight: 100;
     text-align: left;
     line-height: 1;
+}
+.card-header img{
+    display:none
+}
+.grid-2-columns{
+    grid-template-columns: 1fr;
+}
+.embed{
+    aspect-ratio:16/9;
 }
 }
