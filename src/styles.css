@@ -1,4 +1,76 @@
-h1{
-    font-size: 60px;
+body{
+    background-color: rgb(181, 215, 249);
+}
+    h1{
+    font-size: 100px;
     line-height:40px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1.5;
+    font-style: italic;
+
+}
+
+h3{
+    font-size: 40px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+h1, h2, h3, button, footer, a ,p{
+    text-align: center;
+}
+
+p a{
+    color: black;
+    background: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 16px 32px;
+    display: inline-block;
+    margin-top: 32px;
+
+}
+
+.container{
+    max-width:1400px;
+    margin: 0 auto;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/menton2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 160px 160px;
+    max-width: 1800px;
+    margin: 0 auto;
+    color: white;
+}
+
+@media(max-width:900px){
+    header{
+        padding: 40px 0
+    }
+    h1{
+        font-size: 30px;
+        line-height: normal;
+    }
+    h2{
+        font-size: 15px;
+        line-height: normal;
+      
+    }
+    h3{
+        font-size: 15px;
+        line-height: normal;
+    }
+    p a{
+        font-size: 12px;
+        padding: 8px;
+        letter-spacing: normal;
+        border-radius: 5px;
+         }
 }
