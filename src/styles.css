@@ -49,10 +49,59 @@ header{
     margin: 0 auto;
     color: white;
 }
+
+main{
+    background-color: white;
+
+}
+
+main h2{
+    font-size:35px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+main h3{
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0px 20px;
+    opacity: 0.4;
+    letter-spacing: 3px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+main p{
+    font-size: 18px;
+    opacity: 0.7;
+    padding: 0px 20px;
+    text-align: left;
+    margin-top: 0;
+}
+section{
+    background-color: aliceblue;
+    padding:80px 80px;
+}
+.whyMenton{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+.mentonInfo{
+    justify-content: center;
+    align-items: center;
+}
+
+
 .footerContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     line-height: 20px;
+    max-width:1400px;
+    margin: 0 auto;
 }
 
 .info{
