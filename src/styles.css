@@ -153,11 +153,7 @@ main h5{
     margin: 0 auto;
 }
 
-.info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 ul{
     list-style-type: none;
@@ -166,6 +162,7 @@ ul{
 .info{
     padding: 40px;
 }
+
 
 .about{
     font-size: 18px;
@@ -229,6 +226,9 @@ footer a{
 }
 section{
     padding:10px 10px;
+}
+.more-about-menton{
+    text-align: left;
 }
 .footerContainer{
     grid-template-columns: 1fr;
