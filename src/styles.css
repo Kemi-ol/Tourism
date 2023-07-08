@@ -104,6 +104,12 @@ section.secondary{
     align-items: center;
 }
 
+
+.mentonInfo
+    {
+        filter:brightness(1) sepia(10%)
+}
+
 .grid{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
