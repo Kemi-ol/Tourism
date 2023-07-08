@@ -183,6 +183,11 @@ footer h3{
     opacity: 0.8;
 }
 
+li{
+    text-align: left;
+    margin-left:-30px;
+}
+
 footer a{
     color: white;
 }
@@ -252,7 +257,9 @@ footer h3{
     font-size: 15px;
     text-align: left;
 }
-
+li{
+    margin-left:-40px;
+}
 .info{
     padding: 0px;
     text-align: left;
