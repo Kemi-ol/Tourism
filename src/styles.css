@@ -151,10 +151,20 @@ main h5{
     line-height: 20px;
     max-width:1400px;
     margin: 0 auto;
+    margin-top: 0;
 }
 
+.secondary h2{
+    text-align: center;
+    line-height: 2;
+}
 
-
+.secondary h3{
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
 ul{
     list-style-type: none;
 }
